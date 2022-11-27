@@ -15,3 +15,5 @@ MODULE_LICENSE("GPL");
 
 module_init(hw_init);
 module_exit(hw_exit);
+
+// Basic Linux kernel driver
