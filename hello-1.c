@@ -2,7 +2,7 @@
 #include<linux/kernel.h>    //needed for KERN_INFO
 #include<linux/init.h>      //needed for the macros
 
-int __init hw_init(void) {
+int __init my_module(void) {
         printk(KERN_INFO"Hello World\n");
         return 0;
 }
@@ -14,7 +14,7 @@ void __exit hw_exit(void) {
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("RD");
 
-module_init(hw_init);
+module_init(my_module);
 module_exit(hw_exit);
 
 // Basic Linux kernel driver
