@@ -4,7 +4,7 @@
 #include <linux/fs.h>
 #include <linux/proc_fs.h>
 // Module metadata
-MODULE_AUTHOR("Ruan de Bruyn");
+MODULE_AUTHOR("Rakeshh Dhevalall");
 MODULE_DESCRIPTION("Hello world driver");
 MODULE_LICENSE("GPL");
 // Custom init and exit methods
